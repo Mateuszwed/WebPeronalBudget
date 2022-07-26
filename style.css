@@ -111,12 +111,14 @@ h2 {
 	
 }
 
+
 #balanceForm form {
 	
 	padding: 0 100px;
 	margin: 30px 0;
 	
 }
+
 
 #menu {
 	
@@ -222,6 +224,44 @@ h2 {
 	color: red;
 }
 
+
+#selectDate {
+	
+	float: left;
+	margin-left: 500px;
+}
+
+
+.rightPanel {
+	
+	float: right;
+	margin-top: 50px;
+	
+}
+
+
+.rightPanel select {
+	width: 300px;
+	height: 200px;
+
+	
+}
+
+
+.leftPanel {
+	
+	float: left;
+	margin-top: 50px;
+	
+}
+
+
+.leftPanel select {
+	width: 300px;
+	height: 200px;
+
+	
+}
 
 .option {
 	
