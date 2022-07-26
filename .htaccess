@@ -1,0 +1,13 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule logowanie index.html
+RewriteRule dodaj-przychod addIncomes.html
+RewriteRule dodaj-wydatek addExpenses.html
+RewriteRule menu-glowne-budzet-personalny mainMenu.html
+RewriteRule rejestracja register.html
+RewriteRule bilans balance.html
