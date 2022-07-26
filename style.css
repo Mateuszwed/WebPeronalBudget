@@ -96,6 +96,27 @@ h2 {
 	
 }
 
+#balanceForm {
+	
+    height: 550px;
+    width: 900px;
+    background-color: rgba(255,255,255,0.13);
+	margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 5px 35px;
+	
+}
+
+#balanceForm form {
+	
+	padding: 0 100px;
+	margin: 30px 0;
+	
+}
 
 #menu {
 	
