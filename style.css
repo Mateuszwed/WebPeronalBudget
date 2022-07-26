@@ -1,13 +1,14 @@
-body{
+body {
 	
 	background-color: #404040;
 	font-family: Verdana;
 	font-size: 20px;
 	color: white;
+	height: 100%;
 }
 
 
-#logo{
+#logo {
 	
 	height: 80px;
 	background-color: #067e96;
@@ -17,7 +18,7 @@ body{
 	
 }
 
-h1{
+h1 {
 	
 	padding: 15px;
 	text-align: center;
@@ -25,7 +26,7 @@ h1{
 	
 }
 
-h2{
+h2 {
 	color: #ffffff;
 	text-align: center;
 	padding: 0 0 20px 0;
@@ -33,20 +34,24 @@ h2{
 	margin-top: 0px;
 }
 
-#container{
+#container {
 	
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+
 }
 
 
-#loginForm{
+#loginForm {
 	
     height: 360px;
     width: 330px;
     background-color: rgba(255,255,255,0.13);
-	margin-top: 150px;
+	margin-top: 110px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
@@ -56,9 +61,70 @@ h2{
 	
 }
 
-#loginForm form{
+#loginForm form {
 	
 	padding: 0 65px;
 	margin: 30px 0;
 	
 }
+
+#loginButton {
+	
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #067e96;
+	border-radius: 8px;
+	border: none;
+	color: #ffffff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	font-weight: bold;
+	width: 190px;
+	height: 30px;
+}
+
+#loginButton:hover {
+	
+	background-color: #046275;
+}
+
+#goToRegister{
+	
+	font-size: 18px;
+}
+
+#goToRegister > a {
+	
+	font-size: 18px;
+	text-decoration: none;
+	color: #067e96;
+}
+
+#goToRegister > a:hover {
+	
+	color: red;
+	
+}
+
+.textfield {
+	
+	width: 180px;
+	font-size: 20px;
+	margin-top: 5px;
+	
+}
+
+.info {
+	
+	text-align: center;
+	clear: both;
+	background-color: rgba(255,255,255,0.13);
+	position: absolute;
+	bottom: 0;
+	width: 1000px;
+	height: 60px;
+	border-radius: 8px;
+	line-height: 60px;
+}
+
