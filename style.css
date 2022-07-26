@@ -68,6 +68,28 @@ h2 {
 	
 }
 
+.addBalanceForm {
+	
+    height: 500px;
+    width: 330px;
+    background-color: rgba(255,255,255,0.13);
+	margin-top: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+	
+}
+
+.addBalanceForm form {
+	
+	padding: 10px 65px;
+	margin: 30px 0;
+	
+}
+
 #menu {
 	
     height: 380px;
@@ -164,7 +186,7 @@ h2 {
 	color: red;
 }
 
-.option{
+.option {
 	
 	margin: 15px;
 	margin-left: 55px;
@@ -176,7 +198,7 @@ h2 {
 	
 }
 
-.optionlogout{
+.optionlogout {
 	
 	margin: 15px;
 	margin-left: 55px;
@@ -188,23 +210,67 @@ h2 {
 	
 }
 
-.option:hover{
+.option:hover {
 	
 	background-color: #046275;
 }
 
-.optionlogout:hover{
+.optionlogout:hover {
 	
 	background-color: #d15c02;
 }
 
-a.optionlink
-{
+a.optionlink {
+	
 	width: 220px;
 	height: 142px;
 	color: #ffffff;
 	text-decoration: none;
 	display: block;
+}
+
+.formButton {
+
+	padding: 14px;
+	float: left;
+	
+}
+
+.cancelButton {
+	
+	background-color: #ee5a32;
+	border: none;
+	color: white;
+	padding: 6px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 8px;
+	
+}
+
+.cancelButton:hover {
+	
+	background-color: #db4a23;
+}
+
+
+.acceptButton{
+	
+	color: #ffffff;
+	border: none;
+	border-radius: 8px;
+	background-color: #067e96;
+	width: 70px;
+	height: 25px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.acceptButton:hover{
+	
+	background-color: #046275;
 }
 
 .textfield {
@@ -214,6 +280,24 @@ a.optionlink
 	margin-top: 10px;
 	margin-bottom: 5px;
 	
+}
+
+.category {
+	
+	margin-top: 10px;
+	padding: 5px 0;
+	
+}
+
+textarea{
+	
+	resize: none;
+	
+}
+
+.incomescategory {
+	
+	margin-top: 5px;
 }
 
 .info {
