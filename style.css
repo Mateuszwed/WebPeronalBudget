@@ -46,9 +46,9 @@ h2 {
 }
 
 
-#loginForm {
+.loginForm {
 	
-    height: 360px;
+    height: 380px;
     width: 330px;
     background-color: rgba(255,255,255,0.13);
 	margin-top: 110px;
@@ -61,9 +61,9 @@ h2 {
 	
 }
 
-#loginForm form {
+.loginForm form {
 	
-	padding: 0 65px;
+	padding: 10px 65px;
 	margin: 30px 0;
 	
 }
@@ -91,6 +91,7 @@ h2 {
 
 #goToRegister{
 	
+	margin-top: 15px;
 	font-size: 18px;
 }
 
@@ -107,11 +108,52 @@ h2 {
 	
 }
 
+
+#registerButton {
+	
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #067e96;
+	border-radius: 8px;
+	border: none;
+	color: #ffffff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+	font-weight: bold;
+	width: 190px;
+	height: 30px;
+}
+
+#registerButton:hover {
+	
+	background-color: #046275;
+}
+
+#goToLogin {
+	
+	text-align: center;
+	
+}
+
+#goToLogin > a {
+	
+	font-size: 18px;
+	text-decoration: none;
+	color: #067e96;
+}
+
+#goToLogin > a:hover {
+	
+	color: red;
+}
+
 .textfield {
 	
 	width: 180px;
 	font-size: 20px;
-	margin-top: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	
 }
 
